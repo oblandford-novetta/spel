@@ -165,8 +165,8 @@ do
 done
 
 echo "Enabling repos in the builder box"
-yum-config-manager --disable "*" > /dev/null
-yum-config-manager --enable "$CUSTOMREPONAME" > /dev/null
+#yum-config-manager --disable "*" > /dev/null
+#yum-config-manager --enable "$CUSTOMREPONAME" > /dev/null
 
 if [[ -n "${EPELRELEASE}" ]]
 then

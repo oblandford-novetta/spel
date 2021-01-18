@@ -98,9 +98,14 @@ umount /oldroot || true
 
 # Change ssh port. Set packer to connect to port 122; this way packer waits
 # until this script is complete.
+echo "#### UNMODIFIED FILE#####"
+cat /etc/ssh/sshd_config
 sed -i -e "s/^[#]*Port .*$/Port 122/" /etc/ssh/sshd_config
+echo "#### AFTER EDIT ####"
+cat /etc/ssh/sshd_config
 test $(systemctl | grep -c firewalld) -eq 0 || systemctl stop firewalld
 systemctl restart sshd
+systemctl status sshd
 
 # Further stuff to do via packer before `umount /oldroot`
 # Restart systemd
