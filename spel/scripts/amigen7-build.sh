@@ -33,6 +33,32 @@ PYTHON3_LINK="/usr/bin/python3"
 ELBUILD="/tmp/el-build"
 AMIUTILS="/tmp/ami-utils"
 
+# Error handler function
+function err_exit {
+   local ERRSTR
+   local ISNUM
+   local SCRIPTEXIT
+
+   ERRSTR="${1}"
+   ISNUM='^[0-9]+$'
+   SCRIPTEXIT="${2:-1}"
+
+   if [[ ${DEBUG} == true ]]
+   then
+      # Our output channels
+      logger -i -t "${PROGNAME}" -p kern.crit -s -- "${ERRSTR}"
+   else
+      logger -i -t "${PROGNAME}" -p kern.crit -- "${ERRSTR}"
+   fi
+
+   # Only exit if requested exit is numerical
+   if [[ ${SCRIPTEXIT} =~ ${ISNUM} ]]
+   then
+      exit "${SCRIPTEXIT}"
+   fi
+}
+
+
 DEFAULTREPOS=(
     base
     updates

@@ -1,0 +1,657 @@
+2021/01/20 11:36:17 [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-builder-amazon-ebs"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: args: []string{"packer-builder-amazon-ebs"}
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin614424770
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin614424770
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Waiting for connection...
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-provisioner-shell"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin152303662
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Waiting for connection...
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin152303662
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-provisioner-shell"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin163891770
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Waiting for connection...
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin163891770
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-provisioner-shell"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin330816638
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin330816638
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Waiting for connection...
+2021/01/20 11:36:17 packer-provisioner-shell plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-provisioner-file"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-provisioner-file plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-provisioner-file plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-provisioner-file plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-provisioner-file plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-file plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-provisioner-file plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-provisioner-file plugin: args: []string{"packer-provisioner-file"}
+2021/01/20 11:36:17 packer-provisioner-file plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin675427722
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin675427722
+2021/01/20 11:36:17 packer-provisioner-file plugin: Waiting for connection...
+2021/01/20 11:36:17 packer-provisioner-file plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-post-processor-artifice"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: args: []string{"packer-post-processor-artifice"}
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin262063275
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Waiting for connection...
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin262063275
+2021/01/20 11:36:17 packer-post-processor-artifice plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Creating plugin client for path: /Users/oblandford/packer
+2021/01/20 11:36:17 Starting plugin: /Users/oblandford/packer []string{"/Users/oblandford/packer", "plugin", "packer-post-processor-manifest"}
+2021/01/20 11:36:17 Waiting for RPC address for: /Users/oblandford/packer
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: [INFO] Packer version: 1.6.6 [go1.15.6 darwin amd64]
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Checking 'PACKER_CONFIG' for a config file path
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Attempting to open config file: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: [WARN] Config file doesn't exist: /Users/oblandford/.packerconfig
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Setting cache directory: /Users/oblandford/Documents/Repositories/spel/packer_cache
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: args: []string{"packer-post-processor-manifest"}
+2021/01/20 11:36:17 Received unix RPC address for /Users/oblandford/packer: addr is /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin570321103
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Plugin address: unix /var/folders/kd/nvgpzgp538n945wdhh109b2r0000gp/T/packer-plugin570321103
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Waiting for connection...
+2021/01/20 11:36:17 packer-post-processor-manifest plugin: Serving a plugin connection...
+2021/01/20 11:36:17 Preparing build: minimal-centos-7-hvm
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: [INFO] (aws): No AWS timeout and polling overrides have been set. Packer will default to waiter-specific delays and timeouts. If you would like to customize the length of time between retries and max number of retries you may do so by setting the environment variables AWS_POLL_DELAY_SECONDS and AWS_MAX_ATTEMPTS or the configuration options aws_polling_delay_seconds and aws_polling_max_attempts to your desired values.
+2021/01/20 11:36:17 ui: [1;32mminimal-centos-7-hvm: output will be in this color.[0m
+2021/01/20 11:36:17 ui: 
+2021/01/20 11:36:17 Build debug mode: false
+2021/01/20 11:36:17 Force build: false
+2021/01/20 11:36:17 On error: 
+2021/01/20 11:36:17 Waiting on builds to complete...
+2021/01/20 11:36:17 Starting build run: minimal-centos-7-hvm
+2021/01/20 11:36:17 Running builder: amazon-ebs
+2021/01/20 11:36:17 [INFO] (telemetry) Starting builder amazon-ebs
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: [INFO] AWS Auth provider used: "SharedCredentialsProvider"
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: Found region us-east-1
+2021/01/20 11:36:17 packer-builder-amazon-ebs plugin: [INFO] AWS Auth provider used: "SharedCredentialsProvider"
+2021/01/20 11:36:17 ui: [1;32m==> minimal-centos-7-hvm: Prevalidating any provided VPC information[0m
+2021/01/20 11:36:17 ui: [1;32m==> minimal-centos-7-hvm: Prevalidating AMI Name: owenb-spel-7-orig-minimal-centos-7-hvm-0.0.4.x86_64-gp2[0m
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin: Using AMI Filters {
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin:   ImageIds: ["ami-00e87074e52e6c9f9"]
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin: }
+2021/01/20 11:36:19 ui: [0;32m    minimal-centos-7-hvm: Found Image ID: ami-00e87074e52e6c9f9[0m
+2021/01/20 11:36:19 ui: [1;32m==> minimal-centos-7-hvm: Creating temporary keypair: packer_60085c01-3dab-69b8-6537-9db71956879f[0m
+2021/01/20 11:36:19 ui: [1;32m==> minimal-centos-7-hvm: Creating temporary security group for this instance: packer_60085c03-3e62-96ec-7615-c7bdf58b736b[0m
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for temporary security group: sg-0103dd2f853116898
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin: [DEBUG] Found security group sg-0103dd2f853116898
+2021/01/20 11:36:19 ui: [1;32m==> minimal-centos-7-hvm: Authorizing access to port 122 from [0.0.0.0/0] in the temporary security groups...[0m
+2021/01/20 11:36:19 packer-builder-amazon-ebs plugin: [DEBUG] base64 encoding user data...
+2021/01/20 11:36:19 ui: [1;32m==> minimal-centos-7-hvm: Launching a source AWS instance...[0m
+2021/01/20 11:36:19 ui: [1;32m==> minimal-centos-7-hvm: Adding tags to source instance[0m
+2021/01/20 11:36:19 ui: [0;32m    minimal-centos-7-hvm: Adding tag: "Name": "Packer Builder"[0m
+2021/01/20 11:36:21 ui: [0;32m    minimal-centos-7-hvm: Instance ID: i-0a66b1e644b2efddd[0m
+2021/01/20 11:36:21 ui: [1;32m==> minimal-centos-7-hvm: Waiting for instance (i-0a66b1e644b2efddd) to become ready...[0m
+2021/01/20 11:36:22 packer-post-processor-manifest plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 packer-post-processor-artifice plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 ui error: Cancelling build after receiving interrupt
+2021/01/20 11:36:22 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 packer-provisioner-shell plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 Cancelling builder after context cancellation context canceled
+2021/01/20 11:36:22 packer-provisioner-file plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 packer-provisioner-shell plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 packer-provisioner-shell plugin: Received interrupt signal (count: 1). Ignoring.
+2021/01/20 11:36:22 ui error: [1;31m==> minimal-centos-7-hvm: Error waiting for instance (i-0a66b1e644b2efddd) to become ready: RequestCanceled: waiter context canceled
+==> minimal-centos-7-hvm: caused by: context canceled[0m
+2021/01/20 11:36:23 ui: [1;32m==> minimal-centos-7-hvm: No volumes to clean up, skipping[0m
+2021/01/20 11:36:23 ui: [1;32m==> minimal-centos-7-hvm: Deleting temporary security group...[0m
+2021/01/20 11:36:23 packer-provisioner-file plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-artifice plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-manifest plugin: Received interrupt signal (count: 2). Ignoring.
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: Error deleting security group: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: 	status code: 400, request id: e4a46012-d7ee-4a55-82eb-29f9331f5369
+2021/01/20 11:36:23 packer-post-processor-artifice plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-file plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-manifest plugin: Received interrupt signal (count: 3). Ignoring.
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-manifest plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-artifice plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-file plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 4). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-file plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-artifice plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-provisioner-shell plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:23 packer-post-processor-manifest plugin: Received interrupt signal (count: 5). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 6). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 7). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 8). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 9). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 10). Ignoring.
+2021/01/20 11:36:24 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-manifest plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-file plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-post-processor-artifice plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:24 packer-provisioner-shell plugin: Received interrupt signal (count: 11). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 12). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 13). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 14). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 15). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 16). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 17). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 18). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 19). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 20). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 21). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 22). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-file plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-artifice plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-post-processor-manifest plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:25 packer-provisioner-shell plugin: Received interrupt signal (count: 23). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 24). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 25). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 26). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 27). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 28). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 29). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 30). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 31). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 32). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 33). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 34). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-file plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-manifest plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-post-processor-artifice plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:26 packer-provisioner-shell plugin: Received interrupt signal (count: 35). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 36). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 37). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 38). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 39). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 40). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 41). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 42). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 43). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 44). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 45). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 46). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-artifice plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-post-processor-manifest plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-file plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:27 packer-provisioner-shell plugin: Received interrupt signal (count: 47). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 48). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 49). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 50). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 51). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 52). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 53). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 54). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 55). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Error deleting security group: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: 	status code: 400, request id: f4748b03-705f-4f6c-8e16-e40bb896cd4d
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 56). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 57). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 58). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-artifice plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-post-processor-manifest plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-file plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:28 packer-provisioner-shell plugin: Received interrupt signal (count: 59). Ignoring.
+2021/01/20 11:36:29 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-artifice plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-file plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-manifest plugin: Received interrupt signal (count: 60). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-manifest plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-file plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-artifice plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 61). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-manifest plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-artifice plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-file plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 62). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-manifest plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-artifice plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-file plugin: Received interrupt signal (count: 63). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-file plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-manifest plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-provisioner-shell plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-post-processor-artifice plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:29 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 64). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-file plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-manifest plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-artifice plugin: Received interrupt signal (count: 65). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-file plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-artifice plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-manifest plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 66). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-manifest plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-file plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-post-processor-artifice plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-provisioner-shell plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:32 packer-builder-amazon-ebs plugin: Received interrupt signal (count: 67). Ignoring.
+2021/01/20 11:36:33 packer-builder-amazon-ebs plugin: Error deleting security group: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+2021/01/20 11:36:33 packer-builder-amazon-ebs plugin: 	status code: 400, request id: 55c4a336-7975-4c23-93a7-36ce04c7cba1
+2021/01/20 11:36:39 packer-builder-amazon-ebs plugin: Error deleting security group: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+2021/01/20 11:36:39 packer-builder-amazon-ebs plugin: 	status code: 400, request id: 88130233-1fdd-4c8c-a441-c7b28b163ed6
+2021/01/20 11:36:44 packer-builder-amazon-ebs plugin: Error deleting security group: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+2021/01/20 11:36:44 packer-builder-amazon-ebs plugin: 	status code: 400, request id: 2f6dfc72-c506-4d5e-9224-2fcadfe7fc0e
+2021/01/20 11:36:49 ui error: [1;31m==> minimal-centos-7-hvm: Error cleaning up security group. Please delete the group manually: err: DependencyViolation: resource sg-0103dd2f853116898 has a dependent object
+==> minimal-centos-7-hvm: 	status code: 400, request id: 2f6dfc72-c506-4d5e-9224-2fcadfe7fc0e; security group ID: sg-0103dd2f853116898[0m
+2021/01/20 11:36:49 ui: [1;32m==> minimal-centos-7-hvm: Deleting temporary keypair...[0m
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: panic: runtime error: invalid memory address or nil pointer dereference
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: [signal SIGSEGV: segmentation violation code=0x1 addr=0x8 pc=0x2667401]
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: goroutine 12 [running]:
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: github.com/hashicorp/packer/builder/amazon/common.(*StepRunSourceInstance).Run(0xc0003d29a0, 0x5ed0560, 0xc0000c8500, 0x5ed1160, 0xc00080f050, 0x0)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/home/circleci/project/packer/builder/amazon/common/step_run_source_instance.go:254 +0x16a1
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: github.com/hashicorp/packer/packer-plugin-sdk/multistep.(*BasicRunner).Run(0xc00080f140, 0x5ed0560, 0xc0000c8500, 0x5ed1160, 0xc00080f050)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/home/circleci/project/packer/packer-plugin-sdk/multistep/basic_runner.go:70 +0x234
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: github.com/hashicorp/packer/builder/amazon/ebs.(*Builder).Run(0xc000742000, 0x5ed0560, 0xc0000c8500, 0x5eeb480, 0xc00080e330, 0x5e5dc00, 0xc0002d60e0, 0x0, 0xc0000806f8, 0xc000573bd0, ...)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/home/circleci/project/packer/builder/amazon/ebs/builder.go:354 +0x194b
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: github.com/hashicorp/packer/packer-plugin-sdk/rpc.(*BuilderServer).Run(0xc00054d200, 0x1, 0xc000462070, 0x0, 0x0)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/home/circleci/project/packer/packer-plugin-sdk/rpc/builder.go:117 +0x1c4
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: reflect.Value.call(0xc0000806c0, 0xc0003860f0, 0x13, 0x5880270, 0x4, 0xc000573f08, 0x3, 0x3, 0x59b5558, 0xc000082000, ...)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/usr/local/go/src/reflect/value.go:476 +0x8c7
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: reflect.Value.Call(0xc0000806c0, 0xc0003860f0, 0x13, 0xc000872f08, 0x3, 0x3, 0xc000642a38, 0xc000381670, 0x105fee0)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/usr/local/go/src/reflect/value.go:337 +0xb9
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: net/rpc.(*service).call(0xc00054dac0, 0xc00014c0a0, 0xc00037a450, 0xc00037a460, 0xc000734300, 0xc00000c4a0, 0x4a065c0, 0xc00046205c, 0x18a, 0x4909dc0, ...)
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/usr/local/go/src/net/rpc/server.go:377 +0x189
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: created by net/rpc.(*Server).ServeCodec
+2021/01/20 11:36:49 packer-builder-amazon-ebs plugin: 	/usr/local/go/src/net/rpc/server.go:474 +0x445
+2021/01/20 11:36:49 [INFO] (telemetry) ending amazon-ebs
+2021/01/20 11:36:49 ui error: [1;31mBuild 'minimal-centos-7-hvm' errored after 31 seconds 787 milliseconds: unexpected EOF[0m
+2021/01/20 11:36:49 ui: 
+==> Wait completed after 31 seconds 787 milliseconds
+2021/01/20 11:36:49 ui: Cleanly cancelled builds after being interrupted.
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 [INFO] (telemetry) Finalizing.
+2021/01/20 11:36:49 waiting for all plugin processes to complete...
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
+2021/01/20 11:36:49 /Users/oblandford/packer: plugin process exited
