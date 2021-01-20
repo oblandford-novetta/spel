@@ -67,7 +67,7 @@ if [[ ${AMIGENREPOS} == "UNDEF" ]]
 then
    err_exit "Installing no custom repo-config RPMs" NONE
    AMIGENREPOS=$(IFS=,; echo "${DEFAULTREPOS[*]}")
-else
+#else
     # Update this section to handle custom yum later 
    # OSPACKAGESTRING+="-a ${AMIGENREPOS}"
 fi
