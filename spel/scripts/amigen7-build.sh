@@ -17,13 +17,14 @@ BUILDNAME="${SPEL_BUILDNAME}"
 CHROOT="${SPEL_CHROOT:-/mnt/ec2-root}"
 CLOUDPROVIDER="${SPEL_CLOUDPROVIDER:-aws}"
 CUSTOMREPORPM="${SPEL_CUSTOMREPORPM}"
-CUSTOMREPONAME="${SPEL_CUSTOMREPONAME}"
 DEVNODE="${SPEL_DEVNODE:-/dev/nvme0n1}"
 EPELRELEASE="${SPEL_EPELRELEASE:-https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm}"
 EPELREPO="${SPEL_EPELREPO:-epel}"
 EXTRARPMS="${SPEL_EXTRARPMS}"
 FIPSDISABLE="${SPEL_FIPSDISABLE}"
 VGNAME="${SPEL_VGNAME:-VolGroup00}"
+AMIGENREPOS="${SPEL_AMIGENREPOS:-UNDEF}"
+AMIGENREPOSRC="${SPEL_AMIGENREPOSRC:-UNDEF}"
 
 read -r -a BUILDDEPS <<< "${SPEL_BUILDDEPS:-lvm2 parted yum-utils unzip git}"
 
@@ -61,9 +62,14 @@ then
 fi
 DEFAULTREPOS+=(epel)
 
-if [[ -z "${CUSTOMREPONAME}" ]]
+# Custom repo-def RPMs to install
+if [[ ${AMIGENREPOS} == "UNDEF" ]]
 then
-    CUSTOMREPONAME=$(IFS=,; echo "${DEFAULTREPOS[*]}")
+   err_exit "Installing no custom repo-config RPMs" NONE
+   AMIGENREPOS=$(IFS=,; echo "${DEFAULTREPOS[*]}")
+else
+    # Update this section to handle custom yum later 
+   # OSPACKAGESTRING+="-a ${AMIGENREPOS}"
 fi
 
 MKFSFORCEOPT="-F"
@@ -165,8 +171,8 @@ do
 done
 
 echo "Enabling repos in the builder box"
-#yum-config-manager --disable "*" > /dev/null
-#yum-config-manager --enable "$CUSTOMREPONAME" > /dev/null
+yum-config-manager --disable "*" > /dev/null
+yum-config-manager --enable "$AMIGENREPOS" > /dev/null
 
 if [[ -n "${EPELRELEASE}" ]]
 then
@@ -240,9 +246,9 @@ fi
 
 # Construct the cli option string for a custom repo
 CLIOPT_CUSTOMREPO=""
-if [[ -n "${CUSTOMREPORPM}" && -n "${CUSTOMREPONAME}" ]]
+if [[ -n "${CUSTOMREPORPM}" && -n "${AMIGENREPOS}" ]]
 then
-    CLIOPT_CUSTOMREPO=(-r "${CUSTOMREPORPM}" -b "${CUSTOMREPONAME}")
+    CLIOPT_CUSTOMREPO=(-r "${CUSTOMREPORPM}" -b "${AMIGENREPOS}")
 fi
 
 echo "Executing ChrootBuild.sh"
