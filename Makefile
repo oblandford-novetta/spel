@@ -1,7 +1,8 @@
 SHELL := /bin/bash
 
 AWS_EC2_INSTANCE_TYPE ?= t3.2xlarge
-PACKER_ZIP ?= https://releases.hashicorp.com/packer/1.4.5/packer_1.4.5_linux_amd64.zip
+PACKER_VERSION ?= $(shell grep 'FROM hashicorp/packer' Dockerfile 2> /dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' 2> /dev/null)
+PACKER_ZIP ?= https://releases.hashicorp.com/packer/$(PACKER_VERSION)/packer_$(PACKER_VERSION)_linux_amd64.zip
 PACKER_LOG ?= '1'
 PACKER_NO_COLOR ?= '1'
 CHECKPOINT_DISABLE ?= '1'
@@ -23,7 +24,7 @@ SOURCE_AMI_RHEL7_HVM ?= ami-0394fe9914b475c53
 SSH_INTERFACE ?= public_dns
 PIP_URL ?= https://bootstrap.pypa.io/get-pip.py
 PYPI_URL ?= https://pypi.org/simple
-SECURITY_GROUP_CIDR := $(shell curl 'https://api.ipify.org')/32
+SECURITY_GROUP_CIDR := $(shell curl -sSL 'https://api.ipify.org')/32
 
 .PHONY: all install pre_build build post_build
 .EXPORT_ALL_VARIABLES:

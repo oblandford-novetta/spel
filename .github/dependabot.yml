@@ -1,5 +1,15 @@
 version: 2
 updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/build/vagrant"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
 - package-ecosystem: pip
   directory: "/"
   schedule:
