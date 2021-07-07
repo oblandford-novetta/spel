@@ -28,6 +28,7 @@ CLOUDPROVIDER="${SPEL_CLOUDPROVIDER:-aws}"
 DEBUG="${DEBUG:-UNDEF}"
 EPELRELEASE="${SPEL_EPELRELEASE:-https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm}"
 EPELREPO="${SPEL_EPELREPO:-epel}"
+EXTRARPMS="${SPEL_EXTRARPMS}"
 FIPSDISABLE="${SPEL_FIPSDISABLE}"
 
 
