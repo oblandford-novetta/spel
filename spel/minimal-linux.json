@@ -462,7 +462,9 @@
                 "SPEL_AWSCLIV2SOURCE={{ user `spel_aws_cliv2_source` }}",
                 "SPEL_CLOUDPROVIDER=aws",
                 "SPEL_EPELRELEASE={{ user `spel_epel8release` }}",
-                "SPEL_EPELREPO={{ user `spel_epelrepo` }}"
+                "SPEL_EPELREPO={{ user `spel_epelrepo` }}",
+                "SPEL_EXTRARPMS={{ user `spel_extrarpms` }}",
+                "SPEL_FIPSDISABLE={{ user `spel_disablefips` }}"
             ],
             "execute_command": "{{ .Vars }} sudo -E /bin/sh '{{ .Path }}'",
             "only": [
